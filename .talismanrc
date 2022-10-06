@@ -1,0 +1,6 @@
+fileignoreconfig:
+- filename: src/main/java/com/twed/jwt/JWTGenerator.java
+  checksum: db75a79bf51e5dbb85d50b36eba064c442b9bef0ba1ec6e5176e5e8000941a6a
+- filename: src/main/java/com/twed/jwt/validators/JWTSymmetricValidator.java
+  checksum: 573c03da9f3a80953be83321c1748c812784a768ccc3e9741640741768ad47cb
+version: ""
