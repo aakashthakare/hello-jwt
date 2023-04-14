@@ -1,7 +1,7 @@
-package com.twed.jwt;
+package com.hello.jwt;
 
-import com.twed.jwt.validators.JWTValidatorFactory;
-import com.twed.jwt.validators.Validator;
+import com.hello.jwt.validators.JWTValidatorFactory;
+import com.hello.jwt.validators.Validator;
 import io.jsonwebtoken.Claims;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -33,7 +33,7 @@ public class TestJWTWithAsymmetricKey {
     }
 
     @Test
-    public void checkClaims() throws InterruptedException {
+    public void checkClaims() {
         String jwt = JWTGenerator.generate(Validator.ASYMMETRIC, GENERAL_CLAIMS);
         Assertions.assertNotNull(jwt);
         Assertions.assertTrue(JWTValidatorFactory.getInstance(Validator.ASYMMETRIC).isValid(jwt));

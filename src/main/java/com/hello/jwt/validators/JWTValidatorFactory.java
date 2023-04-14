@@ -1,6 +1,6 @@
-package com.twed.jwt.validators;
+package com.hello.jwt.validators;
 
-import com.twed.jwt.JWTValidator;
+import com.hello.jwt.JWTValidator;
 
 public class JWTValidatorFactory {
 

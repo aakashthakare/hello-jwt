@@ -1,4 +1,4 @@
-package com.twed.jwt.validators;
+package com.hello.jwt.validators;
 
 public enum Validator {
 

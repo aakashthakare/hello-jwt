@@ -1,7 +1,7 @@
-package com.twed.jwt.validators;
+package com.hello.jwt.validators;
 
-import com.twed.jwt.JWTGenerator;
-import com.twed.jwt.JWTValidator;
+import com.hello.jwt.JWTGenerator;
+import com.hello.jwt.JWTValidator;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.SignatureException;
 
